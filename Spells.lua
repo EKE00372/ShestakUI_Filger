@@ -38,7 +38,8 @@ Filger_Spells = {
 			{spellID = 124273, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},   -- 重度醉拳 紅燈
 			{spellID = 215479, unitID = "player", caster = "player", filter = "BUFF"},  -- 金鐘絕釀
 			{spellID = 196741, unitID = "player", caster = "player", filter = "BUFF"},  -- 連珠狂拳			
-		},
+			{spellID = 195321, unitID = "player", caster = "player", filter = "BUFF"},  -- 內力轉化(轉化力量)
+			},
 		{
 			Name = "T_DEBUFF_ICON",
 			Direction = "RIGHT",
@@ -102,8 +103,8 @@ Filger_Spells = {
 			{spellID = 101545, filter = "CD"},  -- 翔龍腳
 			--{spellID = 113656, filter = "CD"},  -- 狂拳連打
 			{spellID = 115080, filter = "CD"},  -- 幽冥掌
-			{spellID = 137639, filter = "CD"},  -- 風火大地
-			{spellID = 152173, filter = "CD"},  -- 冰心訣
+			{spellID = 137639, filter = "CD", absID = true},  -- 風火大地
+			{spellID = 152173, filter = "CD", absID = true},  -- 冰心訣
 			{spellID = 115288, filter = "CD"},  -- 凝神靈酒			
 			{spellID = 123904, filter = "CD"},  -- 白虎
 			
@@ -578,6 +579,7 @@ Filger_Spells = {
 			{spellID = 213504, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	秘法魔霧
 			{spellID = 212736, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	冰霜之池
 			{spellID = 213278, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	燃燒大地
+			
 			{spellID = 206480, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	腐屍瘟疫
 			{spellID = 208230, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	血肉盛宴
 			{spellID = 206311, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	幻象之夜
@@ -589,6 +591,7 @@ Filger_Spells = {
 			{spellID = 216040, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	燃燒之魂
 			{spellID = 216685, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	阿古斯之焰
 			{spellID = 206677, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	灼燒烙印
+			
 			{spellID = 205344, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	毀滅之球
 			{spellID = 218342, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	寄生專注
 			{spellID = 218503, unitID = "player", caster = "all", filter = "DEBUFF", absID = true},	--	遞迴打擊
